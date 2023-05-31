@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+margin: 235px ;
+
+  h1 {
+    width: 506px;
+    height: 45px;
+    font-family: 'Heebo  ';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 60px;
+    color: #21243D;
+  }
+
+  h2 {
+    width: 506px;
+    height: 82px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 60px;
+  }
+
+  p {
+    width: 677px;
+    height: 48px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+
+  img {
+    width: 681px;
+    height: 460px;
+  }
+}
