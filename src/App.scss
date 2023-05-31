@@ -1,0 +1,102 @@
+.container {
+    margin: 160px 235px 160px 240px;
+
+    h1 {
+        color: #21243D;
+        font-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        position: absolute;
+        width: 156px;
+        height: 69px;
+        left: 235px;
+        top: 160px;
+    }
+
+    img {
+        position: absolute;
+        width: 246px;
+        height: 180px;
+        left: 235px;
+        top: 254px;
+    }
+}
+
+.work-title {
+    h2 {
+        position: absolute;
+        left: 499px;
+        top: 243px;
+        width: 305px;
+        height: 44px;
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 44px;
+        color: #21243D;
+    }
+}
+
+.work-date {
+    position: absolute;
+    width: 62px;
+    height: 25px;
+    left: 499px;
+    top: 307px;
+    background: #142850;
+    border-radius: 16px;
+
+    &-text {
+        position: absolute;
+        width: 42px;
+        height: 60px;
+        left: 509px;
+        top: 289px;
+        font-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 60px;
+        color: #FFFFFF;
+    }
+}
+
+.work-dashboard {
+    position: absolute;
+    width: 97px;
+    height: 29px;
+    left: 587px;
+    top: 303px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+
+.work-text {
+    position: absolute;
+    width: 418px;
+    height: 93px;
+    left: 499px;
+    top: 351px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+
+.vector {
+    position: absolute;
+    width: 682px;
+    height: 0px;
+    left: 235px;
+    top: 481px;
+    border: 1px solid #E0E0E0;
+}
