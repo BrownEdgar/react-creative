@@ -1,0 +1,28 @@
+footer {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 1859px;
+	height: 182px;
+}
+
+.footer-img {
+	width: 1152px;
+	height: 182px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	&-icon {
+		gap: 35px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	div p {
+		margin-top: 26px;
+	}
+}
