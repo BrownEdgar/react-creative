@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+    max-width: 858px;
+    margin: 0 auto;
+}
+.blog{
+    h1{
+        font-size: 44px;
+        margin-bottom: 55px;
+    }
+    h2{
+        font-size: 30px;
+        margin: 32px 0;
+    }
+    ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 16px 0;
+      }
+      li {
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+      }
+      .name{
+        color: #8695A4;
+      }
+      li:not(:last-child)::after {
+        content: "";
+        display: block;
+        width: 2px;
+        height: 21px;
+        background-color: #000;
+        margin-left: 20px;
+      }
+    p{
+        font-size: 16px;
+        margin: 15px 0 29px 0;
+    }
+}
