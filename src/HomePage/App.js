@@ -4,18 +4,26 @@ import { useState } from "react";
 import "./App.scss";
 
 export default function App() {
-  const [info, setInfo] = useState(data);
+  const [info] = useState(data);
 
   return (
     <div className="App">
       <div className="container">
-        <h3>Recent posts</h3>
+        <div className="headers">
+          <h3>Recent posts</h3>
+          <a href="!#">
+            <p>View all</p>
+          </a>
+        </div>
         <div className="wrapper">
           {info.map((elem) => {
             return (
               <div className="wrap">
                 <h1>{elem.header}</h1>
-                <h4>{elem.data}</h4>
+                <ul>
+                  <li>{elem.data}</li>
+                  <li className="name">{elem.name}</li>
+                </ul>
                 <p>{elem.title}</p>
               </div>
             );
